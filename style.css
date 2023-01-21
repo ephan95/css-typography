@@ -34,6 +34,32 @@ h1 {
   position: relative;
 }
 
+/* animations */
+
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flickerAnimationHAND {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* specific styling */
 
 header {
@@ -122,6 +148,7 @@ a:hover {
 
 .para-six {
   margin-bottom: 700px;
+  animation: flickerAnimation 0.15s infinite;
 }
 
 .para-six p {
@@ -145,12 +172,14 @@ a:hover {
 .hand1 {
   transform: scale(30%);
   margin-top: 200px;
+  animation: flickerAnimationHAND 1s infinite;
 }
 
 .hand2 {
   transform: scaleX(-1) scale(35%);
   position: relative;
   top: -200px;
+  animation: flickerAnimationHAND 1.5s infinite;
 }
 
 .small-words p {
