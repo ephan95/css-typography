@@ -1,0 +1,196 @@
+/* font reference
+
+  font-family: "Abhaya Libre", serif;
+  font-family: "Lexend Exa", sans-serif;
+  font-family: "Mate SC", serif;
+  font-family: "Poppins", sans-serif;
+
+*/
+
+/* overall styling */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Lexend Exa", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-kerning: auto;
+  color: white;
+}
+
+h1 {
+  text-transform: uppercase;
+  position: relative;
+}
+
+/* specific styling */
+
+header {
+  background-color: #800000;
+  padding: 50px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+}
+
+.link a {
+  font-weight: bold;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 10px;
+  display: inline-block;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.scroll {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.5;
+  margin-block: 100px;
+}
+
+.first-paragraph {
+  display: block;
+  line-height: 50px;
+  margin-block: 500px;
+}
+
+.first-paragraph p {
+  text-align: center;
+  font-size: 10px;
+}
+
+.para-two {
+  display: block;
+  line-height: 200px;
+  margin-bottom: 170px;
+}
+
+.para-two p {
+  text-align: center;
+  font-size: 40px;
+}
+
+.para-three {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 500px;
+}
+
+.para-four {
+  text-transform: uppercase;
+  margin: 800px 0px 0px 100px;
+}
+
+.para-four p {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.para-five {
+  margin-block: 300px 700px;
+  display: block;
+  line-height: 150px;
+}
+
+.para-five p {
+  font-size: 128px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.para-six {
+  margin-bottom: 700px;
+}
+
+.para-six p {
+  font-size: 96px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #800000;
+  font-family: "Mate SC", serif;
+  font-kerning: normal;
+}
+
+.para-seven {
+  margin: 60px;
+}
+
+.para-seven p {
+  font-size: 10px;
+}
+
+.hand1 {
+  transform: scale(30%);
+  margin-top: 200px;
+}
+
+.hand2 {
+  transform: scaleX(-1) scale(35%);
+  position: relative;
+  top: -200px;
+}
+
+.small-words p {
+  font-size: 10px;
+}
+
+.mouthing {
+  margin-left: 600px;
+}
+
+.little {
+  margin-left: 680px;
+  margin-top: 200px;
+}
+
+.darling {
+  text-transform: uppercase;
+  margin-left: 700px;
+  margin-top: 20px;
+}
+
+.deepest {
+  text-transform: uppercase;
+  position: absolute;
+  right: 20px;
+  margin-top: 200px;
+}
+
+.deepest p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.loveliest {
+  margin-block: 900px 500px;
+}
+
+.loveliest p {
+  text-transform: uppercase;
+  font-family: "Abhaya Libre", serif;
+  text-align: center;
+  font-size: 64px;
+}
